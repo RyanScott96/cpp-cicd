@@ -3,6 +3,6 @@ out/
 
 # CMake Files
 CMakeFiles/
-CMakeCache/
+CMakeCache.txt
 cmake_install.cmake
 Makefile
