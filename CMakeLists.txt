@@ -10,4 +10,11 @@ endif()
 
 add_subdirectory(source)
 add_subdirectory(app)
+
+option(BUILD_TESTS "Build the tests" ON)
+if(BUILD_TESTS)
+enable_testing()
+include(GoogleTest)
 add_subdirectory(test)
+add_subdirectory("external/googletest")
+endif()
