@@ -3,5 +3,5 @@
 
 Consumer::Consumer() {};
 void Consumer::consume(int value) {
-  std::cout << value << std::endl;
+  std::cout << "consumed " << value << std::endl;
 };
