@@ -1,0 +1,8 @@
+# Project output
+out/
+
+# CMake Files
+CMakeFiles/
+CMakeCache/
+cmake_install.cmake
+Makefile
