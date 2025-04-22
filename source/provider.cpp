@@ -1,4 +1,4 @@
-#include "include/provider.h"
+#include "provider.h"
 
 Provider::Provider(): generator(), distribution(1,6) {};
 

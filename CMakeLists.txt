@@ -7,3 +7,7 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     set(CMAKE_CXX_STANDARD 14)
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
 endif()
+
+add_subdirectory(source)
+add_subdirectory(app)
+add_subdirectory(test)
