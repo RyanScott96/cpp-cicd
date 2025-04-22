@@ -1,5 +1,10 @@
 # Project output
 out/
+*.a
+*.o
+
+# Test output
+test/testmain*
 
 # CMake Files
 CMakeFiles/
