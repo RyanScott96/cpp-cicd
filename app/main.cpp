@@ -1,14 +1,14 @@
-#include "provider.h"
+#include "producer.h"
 #include "consumer.h"
 
 #include <iostream>
 
 int main(int, char**){
-    Provider provider;
+    Producer producer;
     Consumer consumer;
 
     for (int i = 0; i < 10; ++i) {
-        consumer.consume(provider.next_value());
+        consumer.consume(producer.next_value());
     }
 
     return 0;

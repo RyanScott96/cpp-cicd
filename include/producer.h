@@ -1,15 +1,15 @@
 #pragma once
-#ifndef providerH
-#define providerH
+#ifndef producerH
+#define producerH
 
 #include <random>
 
-class Provider {
+class Producer {
 private:
     std::default_random_engine generator;
     std::uniform_int_distribution<int> distribution;
 public:
-    Provider();
+    Producer();
     int next_value();
 };
 
